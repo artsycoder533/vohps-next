@@ -17,8 +17,9 @@ export const Container = styled.article`
     text-align: left;
     gap: 1rem;
     padding: 1rem;
-    background: #fcd20a;   
-    
+    background: #cdf5fd;
+    box-shadow: -5px 31px 14px -4px rgba(0, 0, 0, 0.1);
+
     span {
       display: block;
       padding-left: 1rem;

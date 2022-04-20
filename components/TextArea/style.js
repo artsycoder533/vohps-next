@@ -10,16 +10,16 @@ export const Container = styled.div`
     font-size: 1rem;
     height: 10rem;
     border: 1px solid transparent;
-    border-bottom: 2px solid purple;
 
     &:hover,
     &:focus {
-      border: 2px solid purple;
       background: #ffefff;
     }
   }
 
   label {
     font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
   }
 `;
