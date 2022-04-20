@@ -1,5 +1,11 @@
 import Head from 'next/head'
 import styled from 'styled-components';
+import Hero from '../components/Hero/Hero';
+import Mission from '../components/Mission/Mission';
+import Quote from '../components/Quote/Quote';
+import { quotes } from '../utility/data';
+import Services from '../components/Services/Services';
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton';
 
 export const Container = styled.div`
   border: 2px solid red;
@@ -14,11 +20,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
-        
+      <main>
+        <Hero />
+        <Mission />
+        <Quote quote={quotes[0]} />
+        <Services />
+        <Quote quote={quotes[1]} />
+        <BackToTopButton />
       </main>
-
-      
     </div>
-  )
+  );
 }
