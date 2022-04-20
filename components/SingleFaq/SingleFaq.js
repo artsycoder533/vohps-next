@@ -6,7 +6,7 @@ const SingleFaq = ({ question, answer }) => {
   if (question === "What are your rates?") {
       return (   
       <Container>
-        <summary>
+          <summary>
           <h3>{question}</h3>
         </summary>
         <div>

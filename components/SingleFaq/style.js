@@ -11,7 +11,7 @@ export const Container = styled.details`
   div {
     padding: 1rem;
 
-    @media all and (min-width: 768px){
+    @media all and (min-width: 768px) {
       padding-left: 3rem;
     }
 
@@ -34,7 +34,6 @@ export const Container = styled.details`
     display: flex;
     align-items: center;
     transition: all 0.3s ease-in-out;
-    /* border-bottom: 1px solid gray; */
 
     @media all and (min-width: 768px) {
       padding: 2rem;
@@ -66,11 +65,12 @@ export const Container = styled.details`
   }
 
   &[open] summary::before {
-    content: "x";
+    content: "X";
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: vertical;
+    font-weight: 600;
   }
 `;
