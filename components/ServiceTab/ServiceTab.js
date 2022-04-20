@@ -1,6 +1,7 @@
 import { Container, StyledDescription } from "./style";
 import { PrimaryLink } from "../Button/style";
 import Link from 'next/link';
+import Image from "next/image";
 
 const ServiceTab = ({ service}) => {
     const { title, description, description1, description2, btn, img, url } = service;
@@ -17,7 +18,7 @@ const ServiceTab = ({ service}) => {
           </Link>
         </StyledDescription>
         <div>
-          <img src={img.src} alt={title} width="100%" height="100%" />
+          <Image src={img.src} alt={title} width="100%" height="100%" width={588} height={392}/>
         </div>
       </Container>
     );
@@ -32,7 +33,7 @@ const ServiceTab = ({ service}) => {
           </Link>
         </StyledDescription>
         <div>
-          <img src={img.src} alt={title} />
+          <Image src={img.src} alt={title} width={588} height={392} />
         </div>
       </Container>
     );

@@ -7,7 +7,6 @@ import { useState } from "react";
 const Navbar = ({ openMenu, setOpenMenu }) => {
   const router = useRouter();
   const [path, setPath] = useState(router.pathname);
-  console.log(path);
 
   const setActiveLink = () => {
     setPath(router.pathname);
