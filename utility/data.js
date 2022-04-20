@@ -18,7 +18,7 @@ export const navLinks = [
     text: "About Us",
   },
   {
-    url: "/services",
+    url: "/therapyservices",
     text: "Therapy Services",
   },
   {
@@ -41,7 +41,7 @@ export const footerLinks = [
     text: "Dr. Selisha Nelson-Smith Ph.D, LCP",
   },
   {
-    url: "/services",
+    url: "/therapyservices",
     text: "Therapy Services",
   },
   {
@@ -78,22 +78,22 @@ export const socialLinks = [
 export const services = [
   {
     text: "Individual Therapy",
-    url: "/services",
+    url: "/therapyservices",
     image: img1,
   },
   {
     text: "Couples Therapy",
-    url: "/services",
+    url: "/therapyservices",
     image: img2,
   },
   {
     text: "Group Therapy",
-    url: "/services",
+    url: "/therapyservices",
     image: img4,
   },
   {
     text: "Psychological Assessments",
-    url: "/services",
+    url: "/therapyservices",
     image: img3,
   },
 ];

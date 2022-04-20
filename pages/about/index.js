@@ -4,7 +4,7 @@ import headshot from "../../public/images/headshot.png";
 import { AboutSection, BioStats, BioText, Container } from "./style";
 import { PrimaryLink, StyledRegLink } from "../../Components/Button/style";
 import Title from "../../Components/Title/Title";
-
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -15,7 +15,9 @@ const About = () => {
           <BioStats>
             <img src={headshot.src} alt="headshot of Dr Nelson-Smith" />
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
-            <PrimaryLink to="/contact">Schedule Appointment</PrimaryLink>
+            <Link href="/contact">
+              <PrimaryLink>Schedule Appointment</PrimaryLink>
+            </Link>
             <StyledRegLink
               href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620"
               target="_blank"
