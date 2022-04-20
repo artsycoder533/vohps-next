@@ -1,7 +1,7 @@
 import Title from "../../Components/Title/Title";
 import { Center } from "../../styles/globalstyle";
 import AllFaqs from "../../Components/AllFaqs/AllFaqs";
-import { Container, Wrapper, StyledArticle } from "./style";
+import { Container, Wrapper, StyledArticle } from "../../styles/faq_style";
 import { goodFaith, noSurprises } from "../../utility/data";
 import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
 import CallToAction from "../../Components/CTA/CallToAction";

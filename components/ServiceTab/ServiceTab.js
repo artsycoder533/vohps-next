@@ -18,7 +18,7 @@ const ServiceTab = ({ service}) => {
           </Link>
         </StyledDescription>
         <div>
-          <Image src={img.src} alt={title} width="100%" height="100%" width={588} height={392}/>
+          <Image src={img.src} alt={title} width={588} height={392}/>
         </div>
       </Container>
     );
