@@ -19,6 +19,32 @@ export default function Home() {
         <meta name="author" content="Natasha Johnson" />
         <meta name="keywords" content="Dr. Selisha Nelson-Smith PhD LCP, Visions of Hope Psychological Services, LLC, Mental Health, Counseling, Therapy Services, Private Practice" />
         <meta name="description" content="Visions of Hope Psychological Services, LLC is a Mental Health Private Practice located in Richmond, Virginia offering Individual, Couples and Group Therapy Services along with Psycholgical Evaluations.  We are owned and operated by Dr. Selisha Nelson-Smith PhD, LCP." />
+        <meta
+          property="og:image"
+          content="https://visionsofhope-va.com/assets/images/desktop.png"
+        />
+        <meta
+          name="og:image:alt"
+          content="Visions of Home Psychological Services, LLC Homepage"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Visions of Hope Psycholgical Services, LLC | Home Page"
+        />
+        <meta
+          property="og:description"
+          content="Visions of Hope Psychological Services, LLC is a Mental Health Private Practice located in Richmond, Virginia offering Individual, Couples and Group Therapy Services along with Psycholgical Evaluations.  We are owned and operated by Dr. Selisha Nelson-Smith PhD, LCP."
+        />
+        <meta property="og:url" content="https://visionsofhope-va.com/" />
+        <meta
+          name="twitter:image"
+          content="https://visionsofhope-va.com/public/images/desktop.png"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="Visions of Home Psychological Services, LLC Homepage"
+        />
         <link rel="icon" type="image" href="../public/images/logo.png"></link>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
