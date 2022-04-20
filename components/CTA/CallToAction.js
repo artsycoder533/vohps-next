@@ -6,7 +6,7 @@ import Link from 'next/link';
 const CallToAction = () => {
   return (
     <Container>
-      <Link href="/contact">
+      <Link href="/contact" passHref>
         <PrimaryLink>Schedule Appointment</PrimaryLink>
       </Link>
     </Container>

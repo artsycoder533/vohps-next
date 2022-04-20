@@ -12,7 +12,7 @@ const Hero = () => {
             Finding Clarity Through <em>Healing</em>
           </h1>
           <ButtonContainer>
-            <Link href="/contact">
+            <Link href="/contact" passHref>
               <PrimaryLink>Schedule Appointment</PrimaryLink>
             </Link>
             

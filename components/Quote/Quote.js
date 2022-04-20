@@ -10,7 +10,7 @@ const Quote = ({quote}) => {
       <Center>
         <div>
           <span>&ldquo;</span>
-          <blockquote>"{text}"</blockquote>
+          <blockquote>&quot;{text}&quot;</blockquote>
           <p>{author}</p>
         </div>
       </Center>

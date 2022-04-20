@@ -12,7 +12,7 @@ const ServiceTab = ({ service}) => {
           <h3>{title}</h3>
           <p>{description1}</p>
           <p>{description2}</p>
-          <Link href={url}>
+          <Link href={url} passHref>
             <PrimaryLink>{btn}</PrimaryLink>
           </Link>
         </StyledDescription>
@@ -27,7 +27,7 @@ const ServiceTab = ({ service}) => {
         <StyledDescription>
           <h3>{title}</h3>
           <p>{description}</p>
-          <Link href={url}>
+          <Link href={url} passHref>
             <PrimaryLink>{btn}</PrimaryLink>
           </Link>
         </StyledDescription>

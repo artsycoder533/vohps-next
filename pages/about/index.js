@@ -5,6 +5,7 @@ import { AboutSection, BioStats, BioText, Container } from "./style";
 import { PrimaryLink, StyledRegLink } from "../../Components/Button/style";
 import Title from "../../Components/Title/Title";
 import Link from "next/link";
+import Image from 'next/Image'
 
 const About = () => {
   return (
@@ -13,9 +14,9 @@ const About = () => {
       <Center>
         <AboutSection>
           <BioStats>
-            <img src={headshot.src} alt="headshot of Dr Nelson-Smith" />
+            <Image src={headshot.src} alt="headshot of Dr Nelson-Smith" />
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
-            <Link href="/contact">
+            <Link href="/contact" passHref>
               <PrimaryLink>Schedule Appointment</PrimaryLink>
             </Link>
             <StyledRegLink

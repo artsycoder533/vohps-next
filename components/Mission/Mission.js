@@ -38,8 +38,8 @@ const Mission = () => {
               evidence-based practices. It is important to create a safe space
               that will allow individuals to find strength and security in their
               vulnerability. There is no cookie cutter model to therapy, and
-              each client's treatment will cater to their presenting needs and
-              current diagnosis.
+              each client&apos;s treatment will cater to their presenting needs
+              and current diagnosis.
             </p>
           </div>
         </article>

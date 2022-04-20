@@ -34,10 +34,10 @@ const ContactForm = ({ title }) => {
           By submitting this form via this web portal, you acknowledge and
           accept that risks of communicating your health information via this
           unencrypted email and electronic messaging and wish to continue
-          despite those risks. By clicking "Yes, I want to submit this form",
-          you agree to hold Visions of Hope Psychological Services, LLC harmless
-          for unauthorized use, disclosure, or access of your protected health
-          information sent via this electronic means.
+          despite those risks. By clicking &quot;Yes, I want to submit this
+          form&quot;, you agree to hold Visions of Hope Psychological Services,
+          LLC harmless for unauthorized use, disclosure, or access of your
+          protected health information sent via this electronic means.
         </p>
         <FormCheckbox
           label="Yes, I want to submit this form"
