@@ -14,6 +14,7 @@ const Faqs = () => {
           <Wrapper>
             <Title title="FAQs" />
             <AllFaqs />
+            <CallToAction />
             <Title title="No Surprises Act" />
             {noSurprises.map((text, index) => {
               return <p key={index}>{text}</p>;
@@ -45,7 +46,6 @@ const Faqs = () => {
 
         <BackToTopButton />
       </Container>
-      <CallToAction />
     </>
   );
 };
