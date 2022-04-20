@@ -1,11 +1,14 @@
 import React from 'react';
 import { PrimaryLink } from "../../Components/Button/style";
 import { Container } from './style';
+import Link from 'next/link';
 
 const CallToAction = () => {
   return (
     <Container>
-      <PrimaryLink to="/contact">Schedule Appointment</PrimaryLink>
+      <Link href="/contact">
+        <PrimaryLink>Schedule Appointment</PrimaryLink>
+      </Link>
     </Container>
   );
 }
