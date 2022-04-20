@@ -73,8 +73,8 @@ const Footer = () => {
             </ContactDiv>
           </LinkWrapper>
           <StyledAttrition>
-            {showDate()} &copy; Copyright Visions of Hope Psychological Services, LLC | All
-            Rights Reserved | Website made by{" "}
+            Copyright {showDate()} &copy; Visions of Hope Psychological Services,
+            LLC | All Rights Reserved | Website made by{" "}
             <a
               href="https://natashajohnson.dev/"
               target="_blank"

@@ -14,7 +14,7 @@ const About = () => {
       <Center>
         <AboutSection>
           <BioStats>
-            <Image src={headshot.src} alt="headshot of Dr Nelson-Smith" />
+            <Image src={headshot.src} alt="headshot of Dr Nelson-Smith" width={233} height={233}/>
             <h3>Dr. Selisha Nelson-Smith PhD, LCP</h3>
             <Link href="/contact" passHref>
               <PrimaryLink>Schedule Appointment</PrimaryLink>

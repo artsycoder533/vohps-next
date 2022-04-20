@@ -6,7 +6,7 @@ import {
 } from "./style";
 import { Center } from "../../styles/globalstyle";
 import ServiceCard from "../ServiceCard/ServiceCard";
-import { services } from "../../Utility/data";
+import { services } from "../../utility/data";
 
 const Services = () => {
   return (
