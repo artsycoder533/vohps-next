@@ -1,4 +1,4 @@
-import { Container, StyledLink } from "./style";
+import { Container, StyledLink, CardLink, StyledText } from "./style";
 import Image from 'next/Image'
 
 const ServiceCard = ({text, url, image}) => {
@@ -7,7 +7,7 @@ const ServiceCard = ({text, url, image}) => {
       <StyledLink href={url}>
         <a>
           <Image src={image} alt={text} />
-          {text}
+          <StyledText>{text}</StyledText>
         </a>
       </StyledLink>
     </Container>

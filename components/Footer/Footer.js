@@ -1,4 +1,4 @@
-import { footerLinks, socialLinks } from "../../utility/data";
+import { footerLinks, socialLinks, showDate } from "../../utility/data";
 import {
   Container,
   Wrapper,
@@ -11,7 +11,7 @@ import {
   StyledRegLink,
 } from "./style";
 import logo from "../../public/images/logo.png";
-import Image from 'next/image';
+import Image from "next/image";
 import { Center } from "../../styles/globalstyle";
 
 const Footer = () => {
@@ -22,9 +22,7 @@ const Footer = () => {
           <LinkWrapper>
             <Image
               src={logo}
-                          alt="Vision of Hope Psychological Services LLC logo"
-                          width="200px"
-                          height="246px"
+              alt="Vision of Hope Psychological Services LLC logo"
             />
             <div>
               <Container>
@@ -75,7 +73,7 @@ const Footer = () => {
             </ContactDiv>
           </LinkWrapper>
           <StyledAttrition>
-            &copy; Copyright Visions of Hope Psychological Services, LLC | All
+            {showDate()} &copy; Copyright Visions of Hope Psychological Services, LLC | All
             Rights Reserved | Website made by{" "}
             <a
               href="https://natashajohnson.dev/"

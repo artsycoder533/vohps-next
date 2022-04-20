@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Link from 'next/link';
+import Link from "next/link";
 
 export const Container = styled.nav`
   width: 100%;
@@ -48,9 +48,12 @@ export const Container = styled.nav`
   }
 `;
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled.a`
   text-decoration: none;
   font-weight: bold;
+  background: ${( props ) =>
+    props.href === props.pathname ? "#cdf5fd" : "purple"};
+  /* color: ${(props) => (props.href === props.pathname ? "purple" : "white")}; */
 
   &.active {
     background: #cdf5fd;

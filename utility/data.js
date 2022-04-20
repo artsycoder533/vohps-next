@@ -210,3 +210,8 @@ export const goodFaith = [
     link: "https://www.cms.gov/nosurprises",
   },
 ];
+
+export const showDate = () => {
+  const date = new Date();
+  return date.getFullYear();
+}

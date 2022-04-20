@@ -11,6 +11,8 @@ export const ServicesWrapper = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
+  gap: 2rem;
 
   @media all and (min-width: 768px){
     flex-direction: row;

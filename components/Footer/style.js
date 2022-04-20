@@ -19,6 +19,10 @@ export const LinkWrapper = styled.div`
     width: 100%;
   }
 
+  img {
+    width: 200px;
+  }
+
   @media all and (min-width: 1100px) {
     flex-direction: row;
   }
@@ -30,9 +34,7 @@ export const Wrapper = styled.section`
   padding: 1rem 0;
   justify-content: space-between;
 
-  img {
-    max-width: 200px;
-  }
+ 
 `;
 
 export const Container = styled.ul`
@@ -134,7 +136,8 @@ export const ContactDiv = styled.div`
 
 export const StyledAttrition = styled.p`
   text-align: center;
-
+  font-size: 0.9rem;
+  
   a {
     color: #eee;
   }
