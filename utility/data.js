@@ -23,7 +23,7 @@ export const navLinks = [
   },
   {
     url: "/faqs",
-    text: "FAQs",
+    text: "FAQ's",
   },
   {
     url: "/contact",
@@ -46,7 +46,7 @@ export const footerLinks = [
   },
   {
     url: "/faqs",
-    text: "FAQs",
+    text: "FAQ's",
   },
   {
     url: "/contact",

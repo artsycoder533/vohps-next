@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Visions of Hope Psychological Services, LLC</title>
+        <title>Visions of Hope Psychological Services, LLC | Home</title>
         <meta name="author" content="Natasha Johnson" />
         <meta
           name="keywords"
