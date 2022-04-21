@@ -15,8 +15,9 @@ const Hero = () => {
             <Link href="/contact" passHref>
               <PrimaryLink>Schedule Appointment</PrimaryLink>
             </Link>
-            
-            <SecondaryLink href="#mission">Learn More</SecondaryLink>
+            <Link href="#mission" passHref>
+              <SecondaryLink>Learn More</SecondaryLink>
+            </Link>
           </ButtonContainer>
         </article>
       </Center>
