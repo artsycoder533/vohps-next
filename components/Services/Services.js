@@ -7,6 +7,7 @@ import {
 import { Center } from "../../styles/globalstyle";
 import ServiceCard from "../ServiceCard/ServiceCard";
 import { services } from "../../utility/data";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -21,9 +22,9 @@ const Services = () => {
               );
             })}
           </ServicesWrapper>
-          <StyledPrimaryLink to="/contact">
-            Schedule An appointment
-          </StyledPrimaryLink>
+          <Link href="/contact" passHref>
+            <StyledPrimaryLink>Schedule An appointment</StyledPrimaryLink>
+          </Link>
         </Wrapper>
       </Center>
     </Container>
