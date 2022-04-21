@@ -10,6 +10,7 @@ export const Container = styled.div`
     font-size: 1rem;
     height: 10rem;
     border: 1px solid transparent;
+    line-height: 1.5;
 
     &:hover,
     &:focus {

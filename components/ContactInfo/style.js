@@ -8,6 +8,7 @@ export const Container = styled.article`
   max-width: 600px;
   justify-content: center;
   text-align: center;
+  color: #340431;
 
   div {
     display: flex;
@@ -23,6 +24,10 @@ export const Container = styled.article`
     span {
       display: block;
       padding-left: 1rem;
+
+      a {
+        color: #340431;
+      }
     }
 
     h3 {

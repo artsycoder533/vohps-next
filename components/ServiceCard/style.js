@@ -37,5 +37,6 @@ export const CardLink = styled.a`
 export const StyledText = styled.p`
   padding: 1rem;
   font-size: 1.1rem;
-  font-weight: 800;
+  font-weight: 600;
+  color: #340431;
 `;
