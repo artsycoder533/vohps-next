@@ -13,7 +13,6 @@ export const LinkWrapper = styled.div`
   width: 100%;
   align-items: center;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 2rem;
   flex-wrap: wrap;
 
@@ -25,11 +24,6 @@ export const LinkWrapper = styled.div`
 
   @media all and (min-width: 1130px) {
     flex-direction: row;
-  }
-
-  @media all and (min-width: 1350px) {
-    /* grid-template-columns: auto auto auto; */
-    //flex-direction: row;
   }
 `;
 
