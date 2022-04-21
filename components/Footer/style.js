@@ -13,6 +13,9 @@ export const LinkWrapper = styled.div`
   width: 100%;
   align-items: center;
   flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  flex-wrap: wrap;
 
   div {
     display: flex;
@@ -20,12 +23,13 @@ export const LinkWrapper = styled.div`
     width: 100%;
   }
 
-  /* img {
-    width: 200px;
-  } */
-
-  @media all and (min-width: 1100px) {
+  @media all and (min-width: 1130px) {
     flex-direction: row;
+  }
+
+  @media all and (min-width: 1350px) {
+    /* grid-template-columns: auto auto auto; */
+    //flex-direction: row;
   }
 `;
 
@@ -33,15 +37,18 @@ export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
-  justify-content: space-between;
 `;
 
 export const Container = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: auto;
-  column-gap: 2rem;
-  width: 100%;
+  grid-template-columns: 1fr;
+  flex: 1;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
 
   a {
     display: block;
@@ -67,8 +74,7 @@ export const Container = styled.ul`
   }
 
   @media all and (min-width: 768px) {
-    grid-template-columns: auto auto;
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
   }
 `;
 
@@ -122,10 +128,16 @@ export const ContactDiv = styled.div`
   display: flex;
   gap: 1rem;
   line-height: 1.5;
+  max-width: 400px;
 
   address {
     margin-top: 2rem;
     text-align: center;
+    max-width: 400px;
+
+    @media all and (min-width: 768px) {
+      margin-top: 0;
+    }
   }
 
   @media all and (min-width: 768px) {
@@ -150,5 +162,13 @@ export const StyledAttrition = styled.p`
 export const StyledImage = styled(Image)`
   width: 200px;
   height: 246px;
-  border: 1px solid blue;
+`;
+
+export const ImgContainer = styled.div`
+  width: 200px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `;

@@ -15,11 +15,11 @@ const Faqs = () => {
             <Title title="FAQs" />
             <AllFaqs />
             <CallToAction />
-            <Title title="No Surprises Act" />
+            <Title title="No Surprises Act" id="nosurprises" />
             {noSurprises.map((text, index) => {
               return <p key={index}>{text}</p>;
             })}
-            <Title title="Good Faith Estimate" />
+            <Title title="Good Faith Estimate" id="goodfaith"/>
             {goodFaith.map((item, index) => {
               const { heading, p1, p2, list, footer, linkText, link } = item;
               return (

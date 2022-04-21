@@ -52,9 +52,18 @@ export const footerLinks = [
     url: "/contact",
     text: "Contact",
   },
+
   {
-    url: "/contact",
-    text: "Appointment Request",
+    url: "/#mission",
+    text: "Mission",
+  },
+  {
+    url: "/#goodfaith",
+    text: "Good Faith Estimate",
+  },
+  {
+    url: "/#nosuprises",
+    text: "No Surprises Act",
   },
   {
     url: "https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620",
