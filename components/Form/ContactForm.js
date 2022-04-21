@@ -4,8 +4,12 @@ import TextArea from "../TextArea/TextArea";
 import FormCheckbox from "../FormCheckbox/FormCheckbox";
 
 const ContactForm = ({ title }) => {
+  const handleSubmit = () => {
+    
+  }
+
   return (
-    <Container>
+    <Container onSubmit={handleSubmit}>
       <StyledForm>
         <h3>{title}</h3>
         <FormInput
@@ -46,7 +50,7 @@ const ContactForm = ({ title }) => {
           id="submit"
           htmlFor="submit"
         />
-        <FormButton>Send Message</FormButton>
+        <FormButton onClick={handleSubmit}>Send Message</FormButton>
       </StyledForm>
     </Container>
   );

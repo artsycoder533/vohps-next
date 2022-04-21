@@ -5,7 +5,6 @@ export const Container = styled.article`
   gap: 4rem;
   flex-direction: column;
   align-items: center;
-  box-shadow: -5px 7px 14px -4px rgba(0, 0, 0, 0.1);
 
   img {
     border-radius: 1rem;
@@ -16,6 +15,7 @@ export const Container = styled.article`
     flex-direction: row;
     justify-content: center;
     padding: 2rem;
+    box-shadow: -5px 7px 14px -4px rgba(0, 0, 0, 0.1);
 
     div {
       flex: 1;
@@ -33,11 +33,10 @@ export const StyledDescription = styled.div`
 
   h3 {
     font-size: 2rem; 
+    text-align: center;
   }
 
   p:nth-of-type(2) {
-    /* background: #cdf5fd; */
-  
 
     span {
       color: purple;
