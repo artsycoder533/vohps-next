@@ -1,5 +1,5 @@
-import { Container, StyledLink, CardLink, StyledText } from "./style";
-import Image from 'next/Image'
+import { Container, StyledLink, StyledText } from "./style";
+import Image from 'next/image'
 
 const ServiceCard = ({text, url, image}) => {
   return (

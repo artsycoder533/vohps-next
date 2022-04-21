@@ -1,6 +1,6 @@
 import { Center } from "../../styles/globalstyle";
 import { ButtonContainer, Container } from "./style";
-import { PrimaryLink, SecondaryLink, StyledA } from "../../Components/Button/style";
+import { PrimaryLink, SecondaryLink } from "../../components/Button/style";
 import Link from "next/link";
 
 const Hero = () => {
