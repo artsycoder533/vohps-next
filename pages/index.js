@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="/public/images/desktop.png"
+          content="https://vohps-next.vercel.app/images/desktop.png"
         />
         <meta
           name="og:image:alt"
@@ -45,7 +45,7 @@ export default function Home() {
         <meta property="og:url" content="https://visionsofhope-va.com/" />
         <meta
           name="twitter:image"
-          content="https://vohps-next.vercel.app/public/images/desktop.png"
+          content="https://vohps-next.vercel.app/images/desktop.png"
         />
         <meta
           name="twitter:image:alt"
