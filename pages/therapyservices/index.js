@@ -1,10 +1,10 @@
 
-import Title from "../../Components/Title/Title";
+import Title from "../../components/Title/Title";
 import { Center } from "../../styles/globalstyle";
 import { serviceDescriptions } from "../../utility/data";
-import ServiceTab from "../../Components/ServiceTab/ServiceTab";
+import ServiceTab from "../../components/ServiceTab/ServiceTab";
 import { Descriptions } from "../../styles/therapy_style";
-import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const TherapyServices = () => {
   return (

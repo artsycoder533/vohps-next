@@ -1,10 +1,10 @@
 import React from "react";
 import { Center } from "../../styles/globalstyle";
-import ContactForm from "../../Components/Form/ContactForm";
-import Map from "../../Components/Map/Map";
-import ContactInfo from "../../Components/ContactInfo/ContactInfo";
+import ContactForm from "../../components/Form/ContactForm";
+import Map from "../../components/Map/Map";
+import ContactInfo from "../../components/ContactInfo/ContactInfo";
 import { Wrapper, Container } from "../../styles/contact_style";
-import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
 
 const Contact = () => {
   return (

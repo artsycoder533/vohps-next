@@ -1,10 +1,10 @@
-import Title from "../../Components/Title/Title";
+import Title from "../../components/Title/Title";
 import { Center } from "../../styles/globalstyle";
-import AllFaqs from "../../Components/AllFaqs/AllFaqs";
+import AllFaqs from "../../components/AllFaqs/AllFaqs";
 import { Container, Wrapper, StyledArticle } from "../../styles/faq_style";
 import { goodFaith, noSurprises } from "../../utility/data";
-import BackToTopButton from "../../Components/BackToTopButton/BackToTopButton";
-import CallToAction from "../../Components/CTA/CallToAction";
+import BackToTopButton from "../../components/BackToTopButton/BackToTopButton";
+import CallToAction from "../../components/CTA/CallToAction";
 
 const Faqs = () => {
   return (
