@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="description" content="Visions of Hope Psychological Services, LLC is a Mental Health Private Practice located in Richmond, Virginia offering Individual, Couples and Group Therapy Services along with Psycholgical Evaluations.  We are owned and operated by Dr. Selisha Nelson-Smith PhD, LCP." />
         <meta
           property="og:image"
-          content="https://visionsofhope-va.com/assets/images/desktop.png"
+          content="https://visionsofhope-va.com/public/images/desktop.png"
         />
         <meta
           name="og:image:alt"
