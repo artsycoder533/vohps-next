@@ -4,8 +4,9 @@ import TextArea from "../TextArea/TextArea";
 import FormCheckbox from "../FormCheckbox/FormCheckbox";
 
 const ContactForm = ({ title }) => {
-  const handleSubmit = () => {
-    
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("form submitted!");
   }
 
   return (
@@ -50,7 +51,7 @@ const ContactForm = ({ title }) => {
           id="submit"
           htmlFor="submit"
         />
-        <FormButton onClick={handleSubmit}>Send Message</FormButton>
+        <FormButton type="submit">Send Message</FormButton>
       </StyledForm>
     </Container>
   );
