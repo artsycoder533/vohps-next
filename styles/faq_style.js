@@ -20,30 +20,34 @@ export const Wrapper = styled.div`
 `;
 
 export const StyledArticle = styled.article`
-    max-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  h4,
+  p:first-of-type,
+  p:last-of-type {
+    text-align: center;
+  }
+
+  ul {
+    max-width: 500px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    margin: 1rem auto;
+  }
 
-    h4,
-    p:first-of-type,
-    p:last-of-type {
-        text-align: center;
+  p:last-of-type {
+    display: inline;
+  }
+
+  a {
+    color: blue;
+
+    &:hover {
+      background: #fdd104;
+      padding: 0.25rem;
     }
-
-    ul {
-        max-width: 500px;
-        margin: 0 auto;
-        margin: 1rem auto;
-    }
-
-    p:last-of-type {
-        display: inline;
-    }
-
-    a {
-        color: blue;
-    }
-
+  }
 `;
