@@ -11,7 +11,7 @@ const Faqs = () => {
   return (
     <div>
       <Head>
-        <title>Visions of Hope Psychological Services, LLC | FAQ's Page</title>
+        <title>Visions of Hope Psychological Services, LLC | FAQs Page</title>
         <meta name="author" content="Natasha Johnson" />
         <meta
           name="keywords"
@@ -32,7 +32,7 @@ const Faqs = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Visions of Hope Psycholgical Services, LLC | FAQ's Page"
+          content="Visions of Hope Psycholgical Services, LLC | FAQs Page"
         />
         <meta
           property="og:description"
