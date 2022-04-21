@@ -51,7 +51,7 @@ export default function Home() {
           name="twitter:image:alt"
           content="Visions of Home Psychological Services, LLC Homepage"
         />
-        <link rel="icon" type="image" href="../public/images/logo.png"></link>
+        <link rel="icon" type="image" href="/images/logo.png"></link>
       </Head>
 
       <main>
