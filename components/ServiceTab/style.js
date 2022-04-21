@@ -7,12 +7,17 @@ export const Container = styled.article`
   align-items: center;
 
   img {
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     max-width: 100%;
   }
 
   @media all and (min-width: 992px) {
     flex-direction: row;
+    
+    &:nth-of-type(even) {
+      flex-direction: row-reverse;
+    }
+
     justify-content: center;
     padding: 2rem;
     box-shadow: -5px 7px 14px -4px rgba(0, 0, 0, 0.1);
