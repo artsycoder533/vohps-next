@@ -19,6 +19,10 @@ export const Container = styled.section`
         color: purple;
       }
 
+      h2:nth-of-type(1)::first-letter {
+        font-size: 4rem;
+      }
+
       p {
         line-height: 1.5;
       }

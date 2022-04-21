@@ -1,7 +1,7 @@
 import BackToTopButton from "../../components/BackToTopButton/BackToTopButton"
 import { Center } from "../../styles/globalstyle";
 import headshot from "../../public/images/headshot.png";
-import { AboutSection, BioStats, BioText, Container } from "../../styles/index_style";
+import { AboutSection, BioStats, BioText, Container } from "../../styles/about_style";
 import { PrimaryLink, StyledRegLink } from "../../components/Button/style";
 import Title from "../../components/Title/Title";
 import Link from "next/link";
