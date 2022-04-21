@@ -25,7 +25,8 @@ export const GlobalStyle = createGlobalStyle`
 
     /* Track */
     ::-webkit-scrollbar-track {
-    background: #CDF5FC;
+    background: #350533;
+    border: 1px solid purple;
     }
 
     /* Handle */
