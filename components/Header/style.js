@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "next/image";
 
 export const Container = styled.header`
   display: flex;
@@ -6,7 +7,6 @@ export const Container = styled.header`
   align-items: center;
   overflow: hidden;
   box-shadow: 0px 15px 10px -15px;
-  /* position: relative; */
 
   p {
     padding: 1rem;
@@ -17,5 +17,13 @@ export const Container = styled.header`
     margin: 0;
     margin-bottom: 1rem;
   }
+
+  img {
+    width: 200px;
+  }
 `;
 
+export const StyledImage = styled(Image)`
+  width: 200px;
+  height: 246px;
+`;

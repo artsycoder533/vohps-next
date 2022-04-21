@@ -3,6 +3,7 @@ import { Container, StyledImage } from "./style";
 import Navbar from "../Navbar/Navbar";
 import Hamburger from "../Hamburger/Hamburger";
 import Image from "next/image";
+import logo from "../../public/images/logo.png";
 
 
 const Header = () => {
@@ -11,11 +12,11 @@ const Header = () => {
   return (
     <Container>
       <p>**All sessions are currently being held by online teletherapy. **</p>
-      <Image
-        src="/../public/images/logo.png"
-              alt="Visions of Hope logo"
-              width="200px"
-              height="246px"
+      <StyledImage
+        src={logo}
+        alt="Visions of Hope logo"
+        width={200}
+        height={246}
       />
       <Hamburger openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <Navbar openMenu={openMenu} setOpenMenu={setOpenMenu} />

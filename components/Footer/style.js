@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from 'next/link';
+import Image from "next/image";
 
 export const StyledFooter = styled.footer`
   background: black;
@@ -19,9 +20,9 @@ export const LinkWrapper = styled.div`
     width: 100%;
   }
 
-  img {
+  /* img {
     width: 200px;
-  }
+  } */
 
   @media all and (min-width: 1100px) {
     flex-direction: row;
@@ -33,8 +34,6 @@ export const Wrapper = styled.section`
   flex-direction: column;
   padding: 1rem 0;
   justify-content: space-between;
-
- 
 `;
 
 export const Container = styled.ul`
@@ -146,4 +145,10 @@ export const StyledAttrition = styled.p`
     color: #fed203;
     text-decoration: underline;
   }
+`;
+
+export const StyledImage = styled(Image)`
+  width: 200px;
+  height: 246px;
+  border: 1px solid blue;
 `;
