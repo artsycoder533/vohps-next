@@ -31,8 +31,8 @@ export const PrimaryLink = styled.a`
   justify-content: center;
   position: relative;
   overflow: hidden;
-  border: 1px solid white;
- cursor: pointer;
+  border: 1px solid #ffd303;
+  cursor: pointer;
 
   a {
     border: 1px solid white;

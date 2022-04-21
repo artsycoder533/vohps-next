@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Container, StyledImage } from "./style";
 import Navbar from "../Navbar/Navbar";
 import Hamburger from "../Hamburger/Hamburger";
-import Image from "next/image";
 import logo from "../../public/images/logo.png";
 
 

@@ -40,7 +40,7 @@ export const Container = styled.section`
       position: absolute;
       transform: translate(-125px, -100px);
       font-size: 15rem;
-      top: 20px;
+      top: 30px;
       display: block;
     }
 
