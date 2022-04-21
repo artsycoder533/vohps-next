@@ -19,7 +19,6 @@ export const StyledForm = styled.form`
     align-self: flex-start;
     line-height: 1.5;
     font-size: 1.1rem;
-    letter-spacing: 1px;
   }
 
   p:nth-of-type(1) {
