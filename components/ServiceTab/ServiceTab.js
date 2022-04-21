@@ -12,13 +12,17 @@ const ServiceTab = ({ service}) => {
         <StyledDescription>
           <h3>{title}</h3>
           <p>{description1}</p>
-          <p>{description2}</p>
+          <p>
+            <span>*** </span>
+            {description2}
+            <span> ***</span>
+          </p>
           <Link href={url} passHref>
             <PrimaryLink>{btn}</PrimaryLink>
           </Link>
         </StyledDescription>
         <div>
-          <Image src={img.src} alt={title} width={588} height={392}/>
+          <Image src={img.src} alt={title} width={588} height={392} />
         </div>
       </Container>
     );

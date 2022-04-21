@@ -149,7 +149,7 @@ export const serviceDescriptions = [
     title: "Psychological Evaluations",
     description1:
       "Psychological Evaluations are used to assess cognitive, personality, and emotional functioning. Evaluations can also be facilitated for child custody, competency to stand trial, employment purposes, etc.",
-    description2: "*Psychological Evaluations are administered in person.",
+    description2: "Psychological Evaluations are administered in person.",
     btn: "Schedule Appointment",
     img: Evaluation,
     url: "/contact",
