@@ -17,6 +17,26 @@ export const GlobalStyle = createGlobalStyle`
     body {
       
     }
+
+    /* width */
+    ::-webkit-scrollbar {
+    width: 15px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #CDF5FC;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #FCD300;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    border: 1px solid purple;
+    }
 `;
 
 export const Center = styled.div`
