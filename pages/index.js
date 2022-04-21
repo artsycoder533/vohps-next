@@ -27,7 +27,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://vohps-next.vercel.app/public/images/desktop.png"
+          content="/public/images/desktop.png"
         />
         <meta
           name="og:image:alt"
