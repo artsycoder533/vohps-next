@@ -2,16 +2,9 @@ import { Container, StyledLink } from "./style";
 import { navLinks } from "../../utility/data";
 import { useRouter } from 'next/router';
 import Link from "next/link";
-import { useState } from "react";
 
 const Navbar = ({ openMenu, setOpenMenu }) => {
   const router = useRouter();
-  const [path, setPath] = useState(router.pathname);
-
-  const setActiveLink = () => {
-    setPath(router.pathname);
-    setOpenMenu(!openMenu)
-  }
 
   return (
     <Container openMenu={openMenu}>
@@ -19,9 +12,9 @@ const Navbar = ({ openMenu, setOpenMenu }) => {
         {navLinks.map((link, index) => {
           const { url, text } = link;
           return (
-            <li key={index} onClick={setActiveLink}>
+            <li key={index} onClick={()=>setOpenMenu(!openMenu)}>
               <Link href={url} passHref>
-                <StyledLink path={path}>{text}</StyledLink>
+                <StyledLink path={router.pathname} href={url}>{text}</StyledLink>
               </Link>
             </li>
           );

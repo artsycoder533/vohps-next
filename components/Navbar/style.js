@@ -24,19 +24,6 @@ export const Container = styled.nav`
     z-index: 1;
   }
 
-  a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding: 1rem;
-    letter-spacing: 1px;
-
-    &:hover {
-      background: white;
-      color: purple;
-    }
-  }
-
   @media all and (min-width: 768px) {
     position: initial;
     transform: translate(0);
@@ -50,10 +37,19 @@ export const Container = styled.nav`
 
 export const StyledLink = styled.a`
   text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
   font-weight: bold;
-  background: ${( props ) =>
-    props.href === props.pathname ? "#cdf5fd" : "purple"};
-  /* color: ${(props) => (props.href === props.pathname ? "purple" : "white")}; */
+  background: ${({ path, href }) => (path === href ? "#cdf5fd" : "purple")};
+  color: ${({ path, href }) => (path === href ? "purple" : "white")};
+
+  &:hover {
+    background: white;
+    color: purple;
+  }
 
   &.active {
     background: #cdf5fd;
