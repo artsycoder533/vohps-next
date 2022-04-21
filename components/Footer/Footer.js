@@ -29,8 +29,6 @@ const Footer = () => {
                 height={240}
               />
             </ImgContainer>
-
-            {/* <div> */}
             <Container>
               {footerLinks.map((link, index) => {
                 const { url, text } = link;
@@ -52,7 +50,6 @@ const Footer = () => {
                 );
               })}
             </Container>
-            {/* </div> */}
             <ContactDiv>
               <address>
                 <p>Visions of Hope Psychological Services, LLC</p>

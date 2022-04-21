@@ -24,6 +24,7 @@ export const LinkWrapper = styled.div`
 
   @media all and (min-width: 1130px) {
     flex-direction: row;
+    align-items: flex-start;
   }
 `;
 
