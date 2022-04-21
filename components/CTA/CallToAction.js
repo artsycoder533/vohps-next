@@ -1,5 +1,5 @@
 import React from 'react';
-import { PrimaryLink } from "../../Components/Button/style";
+import { PrimaryLink } from "../../components/Button/style";
 import { Container } from './style';
 import Link from 'next/link';
 
