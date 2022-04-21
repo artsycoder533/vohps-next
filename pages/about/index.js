@@ -6,6 +6,7 @@ import { PrimaryLink, StyledRegLink } from "../../components/Button/style";
 import Title from "../../components/Title/Title";
 import Link from "next/link";
 import Image from 'next/image'
+import { BsArrowRight } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
               href="https://www.psychologytoday.com/us/therapists/dr-selisha-nelson-north-chesterfield-va/179620"
               target="_blank"
               rel="noopener noreferrer">
-              View Psychology Today Profile
+              Psychology Today <BsArrowRight />
             </StyledRegLink>
           </BioStats>
           <BioText>
